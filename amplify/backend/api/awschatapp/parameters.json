@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "awschatapp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authawschatappe75d0cc6",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

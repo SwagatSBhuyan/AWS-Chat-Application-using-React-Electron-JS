@@ -1,0 +1,5 @@
+{
+    "tableName": "chatlogs",
+    "partitionKeyName": "chatid",
+    "partitionKeyType": "N"
+}
